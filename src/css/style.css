@@ -55,4 +55,20 @@
   .letter {
     @apply mx-3 text-4xl font-medium;
   }
+
+  .keyboard {
+    @apply max-w-2xl mt-5 flex justify-center flex-wrap
+  }
+
+  .keyboard-button {
+    @apply w-10 h-10 sm:w-14 sm:h-14 m-1 sm:m-2 border rounded-lg border-indigo-500 
+  }
+
+  .hangman-image {
+    @apply w-32 h-32 sm:w-60 sm:h-60;
+  }
+
+  .logo-sm {
+    @apply text-xl
+  }
 }
