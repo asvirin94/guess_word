@@ -47,4 +47,12 @@
   .checkbox-container {
     @apply absolute top-6 right-6;
   }
+
+  .placeholders-wrapper {
+    @apply flex flex-row;
+  }
+
+  .letter {
+    @apply mx-3 text-4xl font-medium;
+  }
 }
