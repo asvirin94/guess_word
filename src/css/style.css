@@ -37,7 +37,7 @@
   }
 
   #app {
-    @apply h-screen flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
+    @apply flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
   }
 
   #game {
