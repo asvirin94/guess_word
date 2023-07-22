@@ -33,7 +33,7 @@
   }
 
   .start-button {
-    @apply bg-slate-200 rounded-md font-medium px-5 py-2 hover:bg-slate-300 dark:bg-indigo-500 dark:hover:bg-indigo-600;
+    @apply bg-slate-200 rounded-md font-medium px-5 py-2 hover:bg-slate-300 dark:bg-indigo-500 dark:hover:bg-indigo-600 hover:cursor-pointer;
   }
 
   #app {
@@ -57,11 +57,15 @@
   }
 
   .keyboard {
-    @apply max-w-2xl mt-5 flex justify-center flex-wrap
+    @apply max-w-2xl mt-5 flex justify-center flex-wrap;
   }
 
   .keyboard-button {
-    @apply w-10 h-10 sm:w-14 sm:h-14 m-1 sm:m-2 border rounded-lg border-indigo-500 
+    @apply w-10 h-10 sm:w-14 sm:h-14 m-1 sm:m-2 border rounded-lg border-indigo-500 enabled:hover:scale-105 transition-all duration-150 enabled:hover:border-indigo-700 enabled:hover:text-indigo-500 disabled:opacity-20 disabled:cursor-not-allowed hover:cursor-pointer;
+  }
+
+  .play-again-button {
+    @apply w-20 sm:w-40 sm:h-14 mt-4 sm:mt-8 border rounded-lg border-indigo-500 enabled:hover:scale-105 transition-all duration-150 enabled:hover:border-indigo-700 enabled:hover:text-indigo-500 hover:cursor-pointer;
   }
 
   .hangman-image {
@@ -69,6 +73,26 @@
   }
 
   .logo-sm {
-    @apply text-xl
+    @apply text-xl;
+  }
+
+  .result-header {
+    @apply text-2xl font-bold mt-4;
+  }
+
+  .result-header.win {
+    @apply text-lime-600;
+  }
+
+  .result-header.lose {
+    @apply text-red-600;
+  }
+
+  .result-word {
+    @apply font-medium uppercase;
+  }
+
+  .quit-button {
+    @apply w-20 sm:w-40 sm:h-14 mt-4 sm:mt-8 border rounded-lg border-indigo-500 enabled:hover:scale-105 transition-all duration-150 enabled:hover:border-indigo-700 enabled:hover:text-indigo-500 hover:cursor-pointer;
   }
 }
