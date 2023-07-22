@@ -37,7 +37,7 @@
   }
 
   #app {
-    @apply flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
+    @apply h-screen py-2.5 flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
   }
 
   #game {
@@ -61,7 +61,7 @@
   }
 
   .keyboard-button {
-    @apply w-10 h-10 sm:w-14 sm:h-14 m-1 sm:m-2 border rounded-lg border-indigo-500 enabled:hover:scale-105 transition-all duration-150 enabled:hover:border-indigo-700 enabled:hover:text-indigo-500 disabled:opacity-20 disabled:cursor-not-allowed hover:cursor-pointer;
+    @apply w-8 h-8 sm:w-12 sm:h-12 m-1 sm:m-2 border rounded-lg border-indigo-500 enabled:hover:scale-105 transition-all duration-150 enabled:hover:border-indigo-700 enabled:hover:text-indigo-500 disabled:opacity-20 disabled:cursor-not-allowed hover:cursor-pointer;
   }
 
   .play-again-button {

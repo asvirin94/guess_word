@@ -116,7 +116,7 @@ export const startGame = () => {
   });
 
   gameElement.innerHTML = createPlaceholdersHTML();
-  gameElement.innerHTML += `<p id='tries' class='mt-10'>TRIES LEFT: <span id='tries-left' class='font-medium text-indigo-600'> 10 </span></p>`;
+  gameElement.innerHTML += `<p id='tries' class='mt-2'>TRIES LEFT: <span id='tries-left' class='font-medium text-indigo-600'> 10 </span></p>`;
 
   const hangmanImg = createImg();
 
