@@ -8,7 +8,7 @@ let winCount;
 
 const createImg = () => {
   const image = document.createElement("img");
-  image.src = "/images/hg-0.png";
+  image.src = "images/hg-0.png";
   image.alt = "hangman image";
   image.classList.add("hangman-image");
   image.id = "hangman-image";
